@@ -1,156 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tea house</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!--manrope font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-<script src="https://cdn.tailwindcss.com"></script>
-<!--tailwind cdn-->
-<script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: '#da373d',
-          }
-        }
-      }
-    }
-  </script>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--tailwind cdn-->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
     <header class="max-w-screen-xl mx-auto px-16 lg:px-24">
-        <section class=" md:flex pt-10 mb-20">
-            <div class="space-y-4">
-                <h1 class="text-5xl md:text-7xl">It's good <br>
-                    tea time at The <br>Tea House</h1>
-                    <br>
-                    <p class="text-gray-500 ">
-                        Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.
-                    </p>
-                    <button class="bg-gradient-to-r from-orange-500 to-red-500 text-2xl rounded-lg text-white px-6 py-4">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
-
+      <section class="md:flex pt-10 mb-20">
+        <div class="space-y-4">
+          <h1 class="text-5xl md:text-7xl">
+            It's good <br />
+            tea time at The <br />Tea House
+          </h1>
+          <br />
+          <p class="text-gray-500">
+            Tea and Botanical Solutions Supplier Give Optimum <br />
+            Satisfaction To Your Taste Buds.
+          </p>
+          <button
+            class="bg-gradient-to-r from-orange-500 to-red-500 text-2xl rounded-lg text-white px-6 py-4"
+          >
+            Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i>
+          </button>
+        </div>
+        <div class="relative">
+          <div class="w-full">
+            <img src="tea-house-resources/images/banner.png" alt="" />
+          </div>
+          <div
+            class="flex bg-white shadow-lg p-4 gap-2 absolute bottom-8 left-8 md:right-22"
+          >
+            <div class="items-center flex">
+              <i class="bg-amber-500 fa-regular fa-star"></i>
             </div>
-            <div class="relative">
-                <div class="w-full">
-                    <img src="tea-house-resources/images/banner.png" alt="">
-                </div>
-                <div class="flex bg-white shadow-lg p-4 gap-2 absolute bottom-8 left-8 md:right-22">
-                    <div class="items-center flex">
-                        <i class="bg-amber-500 fa-regular fa-star"></i>
-                    </div>
-                    <div>
-                        <h3 class="lg:text-2xl font-bold">5.00</h3>
-                        <p class="text-gray-500">Trust Pilot Ratings</p>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-
-
-    </header>
-   <main>
-    <section> <main class="py-8 lg:py-10">
-        <div class="text-center">
-            <h3 class="text-3xl md:text-4xl font-bold mb-2">Our Featured Products</h3>
-            <p class="text-gray-600 mx-auto mx-w-xl">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable. </p>
             <div>
-
+              <h3 class="lg:text-2xl font-bold">5.00</h3>
+              <p class="text-gray-500">Trust Pilot Ratings</p>
             </div>
+          </div>
         </div>
-        <!--card-->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center gap-6 px-4 md:px-6 mt-8">
+      </section>
+    </header>
+    <main>
+      <section>
+        <main class="py-8 lg:py-10">
+          <div class="text-center">
+            <h3 class="text-3xl md:text-4xl font-bold mb-2">
+              Our Featured Products
+            </h3>
+            <p class="text-gray-600 mx-auto mx-w-xl">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, <br />
+              by injected humour, or randomised words which don't look even
+              slightly believable.
+            </p>
+            <div></div>
+          </div>
+          <!--card-->
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center gap-6 px-4 md:px-6 mt-8"
+          >
             <div class="rounded-lg shadow-md overflow-hidden bg-gray-50">
-                
-                    <img class="mx-auto pt-4" src="tea-house-resources/images/tea-1.png" alt="">
-                   <div class="p-4">
-                    <h2 class="font-bold text-xl">Milk tea</h2>
-                    <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
-                   </div>
-            
-                
+              <img
+                class="mx-auto pt-4"
+                src="tea-house-resources/images/tea-1.png"
+                alt=""
+              />
+              <div class="p-4">
+                <h2 class="font-bold text-xl">Milk tea</h2>
+                <p class="text-gray-600">
+                  Creamer could be replaced by fresh milk
+                </p>
+              </div>
             </div>
             <div class="rounded-lg shadow-md overflow-hidden bg-gray-50">
-                
-                <img class="mx-auto pt-4" src="tea-house-resources/images/tea-2.png" alt="">
-               <div class="p-4">
+              <img
+                class="mx-auto pt-4"
+                src="tea-house-resources/images/tea-2.png"
+                alt=""
+              />
+              <div class="p-4">
                 <h2 class="font-bold text-xl">Black tea</h2>
-                <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
-               </div>
-        
+                <p class="text-gray-600">
+                  Creamer could be replaced by fresh milk
+                </p>
+              </div>
+            </div>
+            <div class="rounded-lg shadow-md overflow-hidden bg-gray-50">
+              <img
+                class="mx-auto pt-4"
+                src="tea-house-resources/images/tea-3.png"
+                alt=""
+              />
+              <div class="p-4">
+                <h2 class="font-bold text-xl">leamon tea</h2>
+                <p class="text-gray-600">
+                  Creamer could be replaced by fresh milk
+                </p>
+              </div>
+            </div>
+            <div class="rounded-lg shadow-md overflow-hidden bg-gray-50">
+              <img
+                class="mx-auto pt-4"
+                src="tea-house-resources/images/tea-4.png"
+                alt=""
+              />
+              <div class="p-4">
+                <h2 class="font-bold text-xl">green tea</h2>
+                <p class="text-gray-600">
+                  Creamer could be replaced by fresh milk
+                </p>
+              </div>
+            </div>
+          </div>
+        </main>
+      </section>
+      <!--great tea-->
+      <section class="mb-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 px-6 lg:px-10 lg:w-5/6 gap-10 mx-auto">
+          <!-- img section -->
+          <div class="grid grid-cols-2 grid-rows-3 gap-5">
+            <div
+              class="h-40 rounded-lg bg-gradient-to-r from-red-300 to-red-500"
+            ></div>
+            <div class="bg-orange-50 rounded-lg row-span-2">
+              <img
+                class="mx-auto py-8"
+                src="tea-house-resources/images/fresh-1.png"
+                alt=""
+              />
+            </div>
+
+            <div class="bg-stone-50 rounded-lg row-span-2">
+              <img
+                class="mx-auto py-8"
+                src="tea-house-resources/images/fresh-2.png"
+                alt=""
+              />
+            </div>
+
+            <div
+              class="h-40 rounded-lg bg-gradient-to-r from-stone-200 to-stone-100"
+            ></div>
+          </div>
+          <!-- text-section -->
+          <div>
+            <h1 class="text-5xl font-bold mb-5">
+              Great Tea, Freshly Presented
+            </h1>
+            <p class="text-gray-500">
+              The meaning of gong cha is chanese is to provide the best tea to
+              emperor from all possessions . It represents the highest quality
+              and self expectation. Establishing in 2006, Gong cha had been
+              deeply appreciated by its custoers because of good words of mouth
+              and unique customized service orginated from Taiwan.
+            </p>
+            <br />
+            <h3 class="text-3xl font-bold mb-4">Unique Taste</h3>
+            <p>
+              A Unique and different style from other teapots gives a luxurious
+              and minimalist impression
+            </p>
+            <br />
+            <h2 class="text-3xl font-bold mb-4">Premium Quality</h2>
+            <p class="text-gray-500">
+              Premium Quality that makes tea more elegant and more durable when
+              you use it.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="mb-24">
+        <div
+          class=" h-96 bg-gradient-to-r from-orange-500 to-red-500 rounded-lg grid grid-cols-2 text-white px-5 md:px-16"
+        >
+          <div class="flex items-center justify-center">
+            <div class="w-5/6">
+              <h1 class="text-5xl mb-5 mt-10">Meet Our Super Clients</h1>
+              <p class="mb-5">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour, or randomised words which don't look even
+                slightly believable.
+              </p>
+              <button class="bg-white text-orange-700 px-2 py-3 rounded-xl">
+                Show All
+              </button>
+            </div>
+          </div>
+          <div class="relative space-y-10">
+            <div
+              class="relative left-8 md:left-32 opacity-40 mt-10 h-32 w-full md:w-3/4 bg-white text-black rounded-xl flex items-center p-10"
+            >
+              <div class="absolute -top-5 -left-5 bg-white rounded-full">
+                <img
+                  class="p-1"
+                  src="tea-house-resources/images/client.png"
+                  alt=""
+                />
+              </div>
+              <div>
+                <p class="text-gray-500 mb-5">
+                  We are providing the best and suitable home insurance services
+                  for the people who are interested to treatment
+                </p>
+                <h3 class="font-bold">Ilham Yuda</h3>
+                <h5 class="font-bold text-gray-500">Businessman</h5>
+              </div>
+            </div>
+            <!--middle card-->
             
-        </div>
-        <div class="rounded-lg shadow-md overflow-hidden bg-gray-50">
-                
-            <img class="mx-auto pt-4" src="tea-house-resources/images/tea-3.png" alt="">
-           <div class="p-4">
-            <h2 class="font-bold text-xl">leamon tea</h2>
-            <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
-           </div>
-    
-        
-    </div>
-    <div class="rounded-lg shadow-md overflow-hidden bg-gray-50">
-                
-        <img class="mx-auto pt-4" src="tea-house-resources/images/tea-4.png" alt="">
-       <div class="p-4">
-        <h2 class="font-bold text-xl">green tea</h2>
-        <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
-       </div>
 
-    
-</div>
-
-        </div>
-
-    </main></section>
-    <!--great tea-->
-    <section class="mb-10">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:w-5/6">
-            <!-- img section -->
-             <div class="grid grid-cols-2 grid-rows-3 gap-5">
-                <div class=" h-40 rounded-lg  bg-gradient-to-r from-red-300 to-red-500">
-
-                </div>
-                <div class=" bg-orange-50 rounded-lg row-span-2"><img class="mx-auto py-8" src="tea-house-resources/images/fresh-1.png" alt=""></div>
-
-                <div class=" bg-stone-50 rounded-lg row-span-2"><img class="mx-auto py-8" src="tea-house-resources/images/fresh-2.png" alt=""></div>
-
-                <div class=" h-40 rounded-lg  bg-gradient-to-r from-stone-200 to-stone-100">
-
-                </div>
-
-                
-                
-
-             </div>
-             <!-- text-section -->
-             <div>
-                <h1 class="text-5xl font-bold mb-5">Great Tea, Freshly Presented</h1>
-                <p class="text-gray-500">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
-                <br>
-                <h3 class="text-3xl font-bold mb-4">Unique Taste</h3>
-                <p>A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
-                <br>
-                <h2 class="text-3xl font-bold mb-4">Premium Quality</h2>
-                <p class="text-gray-500">Premium Quality that makes tea more elegant and more durable when you use it.</p>
-
-             </div>
+            <!--bottom card-->
+            <div
+              class="relative left-8 md:left-32 opacity-40 h-32 w-full md:w-3/4 bg-white text-black rounded-xl flex items-center p-10"
+            >
+              <div class="absolute -top-5 -left-5 bg-white rounded-full">
+                <img
+                  class="p-1"
+                  src="tea-house-resources/images/client.png"
+                  alt=""
+                />
+              </div>
+              <div>
+                <p class="text-gray-500 mb-5">
+                  We are providing the best and suitable home insurance services
+                  for the people who are interested to treatment
+                </p>
+                <h3 class="font-bold">Ilham Yuda</h3>
+                <h5 class="font-bold text-gray-500">Businessman</h5>
+              </div>
+            </div>
+            <!-- last card -->
+            <div class="absolute top-20 -left-32 z-10 md:top-32">
+                <div
+            class="relative left-8 md:left-32  h-32 w-full md:w-3/4 bg-white text-black rounded-xl flex items-center p-10"
+          >
+            <div class="absolute -top-5 -left-5 bg-white rounded-full">
+              <img
+                class="p-1"
+                src="tea-house-resources/images/client.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <p class="text-gray-500 mb-5">
+                We are providing the best and suitable home insurance services
+                for the people who are interested to treatment
+              </p>
+              <h3 class="font-bold">Ilham Yuda</h3>
+              <h5 class="font-bold text-gray-500">Businessman</h5>
+            </div>
+          </div>
+            </div>
+          </div>
 
         </div>
-
-    </section>
-   </main>
-    <footer>
-
-    </footer>
-    
-</body>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
